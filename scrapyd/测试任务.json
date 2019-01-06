@@ -1,0 +1,245 @@
+{"task":{
+	"title":"测试",
+	"descript":"爬虫任务文件解析执行测试任务",
+	"timestamp":"2018-7-9",
+	"config":{        
+		"ifsplit":false,
+		"ifloadimg":true,
+		"ifshieldAD":false,
+		"ifincrement":false,
+		"smartCap":{ 
+			"ifAgent":false,
+			"ifSWBrowser":false
+		}
+	},
+	"opList":[
+		{"op_node":{
+			"op_type":7,
+			"op_setting":{
+				"alias":"循环",
+				"waitConf":{
+					"waitTime":1000,
+					"waitElem":null
+				},
+				"loopNum":0,
+				"loopWay":4
+			},
+			"op_param":{
+				"param_list":[
+					"https://www.youzy.cn/college/1242/newplan.html",
+					"https://www.youzy.cn/college/838/newplan.html",
+					"https://www.youzy.cn/college/838/newplan.html"
+				]
+				
+			},
+			"sub_opList":[
+				{"op_node":{
+					"op_type": 1 ,
+					"op_setting":{
+						"alias":"打开网页",
+						"timeout":20000,
+						"ifBlockAD":false,
+						"ifLoop":true,
+						"ifMovepage":false,
+						"ifCleanCookie":false,
+						"ifRedefCookie":true,
+						"ifRetryOpen":false
+					},
+					"op_param":null,
+					"sub_opList":[]
+				}},
+				{"op_node":{
+					"op_num":2,
+					"op_type": 8,
+					"op_setting":{
+						"alias":"判断条件",
+						"waitConf":{
+							"waitTime":0,
+							"waitElem":null
+						}
+					},
+					"op_param":null,
+					"sub_opList":[						
+						{"op_node":{
+							"op_num":3,
+							"op_type": 9,
+							"op_setting":{
+								"alias":"条件分支",
+								"waitConf":{
+									"waitTime":0
+								}
+							},
+							"op_param":{ 
+								"ifElemContain": "//*[@class='list']/ul/li[position()=2]/a"
+							},
+							"sub_opList":[
+								{"op_node":{
+									"op_type": 7,
+									"op_setting":{
+										"alias":"循环",
+										"waitConf":{
+											"waitTime":1000,
+											"waitElem":null
+										},
+										"loopNum":0,
+										"loopWay":3
+									},
+									"op_param":{
+										"elemXpath ": "//*[@class='list']/ul/li[position()>0]/a"
+									},
+									"sub_opList":[
+										{"op_node":{
+											"op_type": 2,
+											"op_setting":{
+												"alias":"点击元素",
+												"waitConf":{
+													"waittime":0,
+													"waitelem":null
+												},
+												"ifLoop":true,
+												"ifOpeninnewlabel":false,
+												"ifAjax": true,
+												"AjaxOvertime": 2000,
+												"ifMovepage":false,
+												"ifRetryOpen":false
+											},
+											"op_param":null,
+											"sub_opList":[]
+										}},
+										{"op_node":{
+											"op_type": 7,
+											"op_setting":{
+												"alias":"循环",
+												"waitConf":{
+													"waitTime":1000,
+													"waitElem":null
+												},
+												"loopNum":0,
+												"loopWay":3
+											},
+											"op_param":{
+												"elemXpath": "//*[@class='list']/ul/li[position()>0]/a"
+											},
+											"sub_opList":[
+												{"op_node":{
+													"op_type": 3,
+													"op_setting":{
+														"alias":"提取数据",
+														"waitConf":{
+															"waitTime":0,
+															"waitElem":null
+														},
+														"ifLoop":true
+													},
+													"op_param":{
+														"elem_list":[
+															{"elem":{
+																"name":"大学名称",
+																"elemXpath":"//HTML/BODY[1]/DIV[4]/DIV[1]/H2[1]",
+																"valueType": 1, 
+																"unfind":{
+																	"ifSetNull":true,
+																	"ifSetAllNull":false,
+																	"useDefault":null
+																}
+															}},
+															{"elem":{
+																"name":"院校招生代码",
+																"elemXpath":"//DIV[@class='pull-right']/P[1]",
+																"valueType": 1, 
+																"unfind":{
+																	"ifSetNull":true,
+																	"ifSetAllNull":false,
+																	"useDefault":null
+																}
+															}} 															
+														]
+													},
+													"sub_opList":[]
+												}
+												}
+											]
+										}}
+									]
+								}}
+
+								
+							]
+						}},
+						{"op_node":{
+							"op_type": 9,
+							"op_setting":{
+								"alias":"条件分支",
+								"waitConf":{
+									"waitTime":0
+								}
+							},
+							"op_param":{ 
+								"ifAlways":true
+							},
+							"sub_opList":[
+								{"op_node":{
+									"op_type": 7,
+									"op_setting":{
+										"alias":"循环",
+										"waitConf":{
+											"waitTime":1000,
+											"waitElem":null
+										},
+										"loopNum":0,
+										"loopWay":3
+									},
+									"op_param":{
+										"Elem": "/html/body/div[position()=6]/div/div/div[position()=1]/table/tbody/tr[position()>0]"
+									},
+									"sub_opList":[
+										{"op_node":{
+											"op_type": 3,
+											"op_setting":{
+												"alias ":"提取数据",
+												"waitConf":{
+													"waitTime":0,
+													"waitElem":null
+												},
+												"ifLoop":true
+											},
+											"op_param":{
+												"elemList":[
+													{"elem":{
+														"name":"专业名称",
+														"elemXpath ":"/html/body/div[position()=6]/div/div/div[position()=1]/table/tbody/tr[position()=0]/td[2]/a",
+														"valueType": 1, 
+														"unfind":{
+															"ifSetNull":true,
+															"ifSetAllNull":false,
+															"useDefault":null
+														}
+													}},
+													{"elem":{
+														"name":"院校招生代码",
+														"elemXpath ":"//DIV[@class='pull-right']/P[1]",
+														"valueType": 1, 
+														"unfind":{
+															"ifSetNull":true,
+															"ifSetAllNull":false,
+															"useDefault":null
+														}
+													}} 														
+												]
+											},
+											"sub_opList":[]
+										}}										
+									]
+								}}
+							]
+						}}
+
+					]
+				}}
+
+			]
+		}}
+		
+	]
+}
+}

@@ -1,0 +1,161 @@
+1526608113527	geckodriver	INFO	geckodriver 0.20.0
+1526608113549	geckodriver	INFO	Listening on 127.0.0.1:39789
+1526608114476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KwFAOfmOXSnn"
+1526608115386	Marionette	INFO	Enabled via --marionette
+1526608118524	Marionette	INFO	Listening on port 37325
+1526608118600	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526609283286	geckodriver	INFO	geckodriver 0.20.0
+1526609283291	geckodriver	INFO	Listening on 127.0.0.1:55936
+1526609284293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qtwnXJM1WnSH"
+1526609285046	Marionette	INFO	Enabled via --marionette
+1526609287932	Marionette	INFO	Listening on port 41298
+1526609288024	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.qtwnXJM1WnSH (No such file or directory)
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.qtwnXJM1WnSH (No such file or directory)
+1526609290362	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526609294729	geckodriver::marionette	ERROR	Failed to stop browser process
+1526610943373	geckodriver	INFO	geckodriver 0.20.0
+1526610943378	geckodriver	INFO	Listening on 127.0.0.1:35198
+1526611452487	geckodriver	INFO	geckodriver 0.20.0
+1526611452492	geckodriver	INFO	Listening on 127.0.0.1:40316
+1526611484565	geckodriver	INFO	geckodriver 0.20.0
+1526611484571	geckodriver	INFO	Listening on 127.0.0.1:59654
+1526611485577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Y1un6cLKIZhL"
+1526611486638	Marionette	INFO	Enabled via --marionette
+1526611489290	Marionette	INFO	Listening on port 37633
+1526611489310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.Y1un6cLKIZhL (No such file or directory)
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.Y1un6cLKIZhL (No such file or directory)
+1526611490572	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526611493729	geckodriver::marionette	ERROR	Failed to stop browser process
+1526611525383	geckodriver	INFO	geckodriver 0.20.0
+1526611525389	geckodriver	INFO	Listening on 127.0.0.1:43068
+1526611526391	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xYrYLkRqCKaz"
+1526611528702	Marionette	INFO	Enabled via --marionette
+1526611531986	Marionette	INFO	Listening on port 36643
+1526611532044	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.xYrYLkRqCKaz (No such file or directory)
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.xYrYLkRqCKaz (No such file or directory)
+1526611534246	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526611537659	geckodriver::marionette	ERROR	Failed to stop browser process
+1526611790766	geckodriver	INFO	geckodriver 0.20.0
+1526611790771	geckodriver	INFO	Listening on 127.0.0.1:56343
+1526611865978	geckodriver	INFO	geckodriver 0.20.0
+1526611865985	geckodriver	INFO	Listening on 127.0.0.1:47755
+1526612132912	geckodriver	INFO	geckodriver 0.20.0
+1526612132917	geckodriver	INFO	Listening on 127.0.0.1:36132
+1526625133403	geckodriver	INFO	geckodriver 0.20.0
+1526625133409	geckodriver	INFO	Listening on 127.0.0.1:58403
+1526625466744	geckodriver	INFO	geckodriver 0.20.0
+1526625466762	geckodriver	INFO	Listening on 127.0.0.1:58946
+1526625467754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EpiPUIOXUDp8"
+1526625468518	Marionette	INFO	Enabled via --marionette
+1526625471200	Marionette	INFO	Listening on port 41087
+1526625471270	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.EpiPUIOXUDp8 (No such file or directory)
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.EpiPUIOXUDp8 (No such file or directory)
+1526625472352	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526625560112	geckodriver	INFO	geckodriver 0.20.0
+1526625560144	geckodriver	INFO	Listening on 127.0.0.1:46968
+1526625561118	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.a5nztv7zdtvj"
+1526625561868	Marionette	INFO	Enabled via --marionette
+1526625564764	Marionette	INFO	Listening on port 33886
+1526625564836	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.a5nztv7zdtvj (No such file or directory)
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 176: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.a5nztv7zdtvj (No such file or directory)
+1526625570658	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529398842298	geckodriver	INFO	geckodriver 0.20.0
+1529398842319	geckodriver	INFO	Listening on 127.0.0.1:33212
+1529398843305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MCWsdCwGWS0p"
+1529398846535	Marionette	INFO	Listening on port 37343
+1529398846627	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.MCWsdCwGWS0p (No such file or directory)
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1529398994957	geckodriver	INFO	geckodriver 0.20.0
+1529398994962	geckodriver	INFO	Listening on 127.0.0.1:45020
+1529398995964	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aqyMlPyYmKnu"
+1529398999106	Marionette	INFO	Listening on port 34896
+1529398999179	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Unix error 2 during operation lstat on file /tmp/rust_mozprofile.aqyMlPyYmKnu (No such file or directory)
+1529399001017	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 614))
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1539593326311	geckodriver	INFO	geckodriver 0.20.0
+1539593326421	geckodriver	INFO	Listening on 127.0.0.1:35437
+1539593327408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rLLLD0aH91mH"
+1539593335773	Marionette	INFO	Listening on port 35042
+1539593335868	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539593335946	Marionette	DEBUG	[2147483649] Frame script loaded
+1539593335950	Marionette	DEBUG	[2147483649] Frame script registered
+1539593336088	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539593336685	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539593339795	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.jzyzy.cn/51gaokao/html/index.html
+1539593348604	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.jzyzy.cn/51gaokao/html/index.html
+1539593367482	geckodriver	INFO	geckodriver 0.20.0
+1539593367489	geckodriver	INFO	Listening on 127.0.0.1:33750
+1539593368492	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.pv5EDSARhUKP"
+1539593371302	Marionette	INFO	Stopped listening on port 35042
+1539593374717	Marionette	INFO	Listening on port 38809
+1539593374751	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539593374945	Marionette	DEBUG	[2147483649] Frame script loaded
+1539593375028	Marionette	DEBUG	[2147483649] Frame script registered
+1539593375205	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539593375783	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539593379183	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.jzyzy.cn/51gaokao/html/index.html
+1539593387765	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.jzyzy.cn/51gaokao/html/index.html
+1539593450441	geckodriver	INFO	geckodriver 0.20.0
+1539593450449	geckodriver	INFO	Listening on 127.0.0.1:60142
+1539593451452	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.S4CpdTXIDPS1"
+1539593455978	Marionette	INFO	Listening on port 36636
+1539593456012	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539593456139	Marionette	DEBUG	[2147483649] Frame script loaded
+1539593456145	Marionette	DEBUG	[2147483649] Frame script registered
+1539593456191	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539593456618	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539593456928	Marionette	INFO	Stopped listening on port 38809
+1539593460530	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.jzyzy.cn/51gaokao/html/index.html
+1539593467860	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.jzyzy.cn/51gaokao/html/index.html
+1539593476918	geckodriver	INFO	geckodriver 0.20.0
+1539593476926	geckodriver	INFO	Listening on 127.0.0.1:44539
+1539593477928	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.u1yafttZz7qo"
+1539593479325	Marionette	INFO	Stopped listening on port 36636
+1539593482699	Marionette	INFO	Listening on port 42089
+1539593482758	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539593482897	Marionette	DEBUG	[2147483649] Frame script loaded
+1539593482905	Marionette	DEBUG	[2147483649] Frame script registered
+1539593482959	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539593484057	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539593487487	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.jzyzy.cn/51gaokao/html/index.html
+1539593495899	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.jzyzy.cn/51gaokao/html/index.html
+1539593525003	Marionette	DEBUG	[2147483653] Frame script loaded
+1539593525077	Marionette	DEBUG	[2147483653] Frame script registered
+1539593525129	Marionette	DEBUG	[2147483655] Frame script loaded
+1539593525139	Marionette	DEBUG	[2147483655] Frame script registered
+1539593645887	geckodriver	INFO	geckodriver 0.20.0
+1539593645899	geckodriver	INFO	Listening on 127.0.0.1:42383
+1539593646897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9k4y57HDoGkB"
+1539593650633	Marionette	INFO	Listening on port 44462
+1539593650735	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539593650872	Marionette	DEBUG	[2147483649] Frame script loaded
+1539593650879	Marionette	DEBUG	[2147483649] Frame script registered
+1539593650933	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1539593651342	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1539593654330	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.jzyzy.cn/51gaokao/html/index.html
+1539593662885	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.jzyzy.cn/51gaokao/html/index.html
+1539598641541	Marionette	INFO	Stopped listening on port 44462
+1539598644360	Marionette	INFO	Stopped listening on port 42089
